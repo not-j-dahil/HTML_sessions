@@ -18,3 +18,21 @@ p {
     border: 2px solid powderblue;
     padding: 10px;
 }
+
+
+/* Giving links some character! */
+
+a:link,
+a:visited {
+    color: white;
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: teal;
+}
