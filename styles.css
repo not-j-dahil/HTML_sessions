@@ -1,15 +1,20 @@
 body {
-    background-color: powderblue;
+    background-color: rgba(176, 224, 230, 0.5);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: royalblue;
     font-family: Courier;
 }
 
 p {
-    color: rosybrown;
-    font-family: Impact;
+    color: rebeccapurple;
+    font-family: Verdana;
     border: 2px solid powderblue;
     padding: 10px;
 }
