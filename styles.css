@@ -1,0 +1,15 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    color: royalblue;
+    font-family: Courier;
+}
+
+p {
+    color: rosybrown;
+    font-family: Impact;
+    border: 2px solid powderblue;
+    padding: 10px;
+}
