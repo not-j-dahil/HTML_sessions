@@ -25,6 +25,36 @@ p {
 }
 
 
+/* Lists settings */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    margin: 2px;
+}
+
+li a:link,
+li a:visited {
+    background-color: #555555;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
 /* Giving links some character! */
 
 a:link,
