@@ -10,6 +10,7 @@ h5,
 h6 {
     color: royalblue;
     font-family: Courier;
+    padding: 10px;
 }
 
 h2 {
@@ -27,7 +28,7 @@ p {
 
 /* Lists settings */
 
-ul {
+div ul {
     list-style-type: none;
     margin: 0;
     padding: 2px;
@@ -35,13 +36,13 @@ ul {
     background-color: #333333;
 }
 
-li {
+div li {
     float: left;
     margin: 2px;
 }
 
-li a:link,
-li a:visited {
+div li a:link,
+div li a:visited {
     background-color: #555555;
     display: block;
     color: white;
@@ -50,7 +51,7 @@ li a:visited {
     text-decoration: none;
 }
 
-li a:hover {
+div li a:hover {
     background-color: #111111;
 }
 
@@ -93,4 +94,8 @@ td {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.div {
+    color: red;
 }
