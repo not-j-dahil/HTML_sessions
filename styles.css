@@ -12,12 +12,16 @@ h6 {
     font-family: Courier;
 }
 
+h2 {
+    background-color: rgb(255, 168, 153);
+    padding: 10px;
+}
+
 p {
     color: rebeccapurple;
     font-family: Verdana;
     border: 2px solid powderblue;
     padding: 10px;
-    display: inline-block;
 }
 
 
@@ -27,6 +31,7 @@ a:link,
 a:visited {
     color: white;
     background-color: burlywood;
+    font-family: monospace;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -36,6 +41,18 @@ a:visited {
 a:hover,
 a:active {
     background-color: teal;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
 }
 
 
