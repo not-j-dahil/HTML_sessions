@@ -4,11 +4,18 @@
 <head>
     <title>HTML noob :D</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta charset="UTF-8">
     <meta name="description" content="Applied HTML tutorials">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Jasper Dahil">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function myFunction() {
+            document.getElementById('demo').style.color = "white";
+            document.getElementById('demo').style.backgroundColor = "Tomato"
+        }
+    </script>
 
 </head>
 
@@ -29,6 +36,7 @@
             <li><a href="#block">Block and Inline</a></li>
             <li><a href="#iframe">Iframe</a></li>
             <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#layout">Layout</a></li>
         </ul>
     </div>
 
@@ -207,12 +215,10 @@
         <p id="demo">Watch me change . . .</p>
         <button type="button" onclick="myFunction()">Click me to change style!</button>
 
-        <script>
-            function myFunction() {
-                document.getElementById('demo').style.color = "white";
-                document.getElementById('demo').style.backgroundColor = "Tomato"
-            }
-        </script>
+        <hr>
+
+        <h2 id="layout">Layout!</h2>
+
 
 
 
