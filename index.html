@@ -13,7 +13,7 @@
     <script>
         function myFunction() {
             document.getElementById('demo').style.color = "white";
-            document.getElementById('demo').style.backgroundColor = "Tomato"
+            document.getElementById('demo').style.backgroundColor = "black"
         }
     </script>
 
@@ -70,9 +70,8 @@
     <sub>Subscript text</sub>
     </pre>
 
-        <p><img src="HTML5.jpg" alt="HTML5 Logo" width="100" style="float: left; margin-right: 10px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut.
-        </p>
-        <p><img src="HTML5.jpg" alt="HTML5 Logo" width="100" style="float: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut.</p>
+        <p><img src="HTML5.jpg" alt="HTML5 Logo" width="100" style="float: left; margin-right: 10px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut.</p>
+        <p><img src="HTML5.jpg" alt="HTML5 Logo" width="100" style="float: right;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut.</p>
 
         <!-- <hr> -->
         <hr>
@@ -102,30 +101,32 @@
         <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
         <h4>Contact Info: address</h4>
         <address>
+            <p>
         Written by John Doe.<br>
         Visit us at:<br>
         Example.com<br>
         Box 564, Disneyland<br>
         USA
+    </p>
     </address>
         <h4>work title: cite</h4>
         <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
         <h4>bi-directional: bdo</h4>
-        <bdo dir="rtl">This text will be written from right to left</bdo>
+        <p><bdo dir="rtl">This text will be written from right to left</bdo></p>
 
         <!-- <hr> -->
         <hr>
         <h2 id="colors">Colors!</h2>
         <p style="color: tomato;">Using just "color: color_name"</p>
-        <p style="color: #47eaff;">Using hex values</p>
-        <p style="color:hsl(61, 100%, 64%);">Using hsl (hue, saturation, lightness</p>
-        <p style="color:rgba(255, 99, 71, 0.5)">Using rgba</p>
-        <p style="color:hsla(118, 100%, 64%, 0.5);">Using hsla</p>
+        <p style="color: #00aac0;">Using hex values</p>
+        <p style="color:hsl(61, 100%, 32%);">Using hsl (hue, saturation, lightness</p>
+        <p style="color:rgba(192, 29, 0, 0.5)">Using rgba</p>
+        <p style="color:hsla(118, 100%, 37%, 0.5);">Using hsla</p>
 
         <h2 id="borders">Borders!</h2>
-        <h3 style="border:2px solid Tomato;">Hello World</h3>
-        <h3 style="border:2px solid DodgerBlue;">Hello World</h3>
-        <h3 style="border:2px solid Violet;">Hello World</h3>
+        <h4 style="border:2px dashed Tomato;">Hello World</h4>
+        <h4 style="border:2px dotted DodgerBlue;">Hello World</h4>
+        <h4 style="border:2px solid Violet;">Hello World</h4>
 
         <h2 id="tables">Tables!</h2>
         <table style="width:100%">
@@ -198,7 +199,7 @@
             <dd>- black hot drink</dd>
             <dt>Milk</dt>
             <dd>- white hot/cold drink</dd>
-        </dl>>
+        </dl>
 
         <h2 id="block">Block and Inline!</h2>
         <div style="background-color: rgb(174, 255, 255);">
@@ -217,8 +218,29 @@
 
         <hr>
 
-        <h2 id="layout">Layout!</h2>
+        <header>
+            <h2 id="layout">Layout!</h2>
+        </header>
 
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#float">Float</a></li>
+                    <li><a href="#flex">Flexbox</a></li>
+                    <li><a href="#grid">Grid</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h3 id="float">Float</h3>
+                <p>Float elements left or right - makes em inline(?)</p>
+                <h3 id="flex">Flexbox</h3>
+                <p></p>
+            </article>
+        </section>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
 
 
 
