@@ -94,7 +94,6 @@ td {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
 }
 
 .div {
@@ -114,7 +113,7 @@ header {
 
 nav {
     float: left;
-    width: 30%;
+    width: 20%;
     height: auto;
     background: #ccc;
     padding: 20px;
@@ -125,14 +124,10 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    float: left;
-}
-
 article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 80%;
     height: auto;
     background-color: #f1f1f1;
 }
@@ -155,5 +150,8 @@ footer {
     article {
         width: 100%;
         height: auto;
+    }
+    nav li {
+        float: left;
     }
 }

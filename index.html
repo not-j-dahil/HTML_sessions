@@ -37,6 +37,7 @@
             <li><a href="#iframe">Iframe</a></li>
             <li><a href="#javascript">JavaScript</a></li>
             <li><a href="#layout">Layout</a></li>
+            <li><a href="#responsive">Responsive</a></li>
         </ul>
     </div>
 
@@ -234,13 +235,28 @@
                 <h3 id="float">Float</h3>
                 <p>Float elements left or right - makes em inline(?)</p>
                 <h3 id="flex">Flexbox</h3>
-                <p></p>
+                <p>Use of flexbox ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.</p>
+                <h3 id="grid">Grid</h3>
+                <p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</p>
+
             </article>
         </section>
 
         <footer>
             <p>Footer</p>
         </footer>
+
+        <h2 id="responsive">Responsive Web Design!</h2>
+        <img class="center" src="me3.jpg" alt="Jasper-s pic" style="width: 50%;">
+        <picture style="margin: 10px;">
+            <source srcset="me2.jpg" media="(max-width:800px)">
+            <source srcset="me4.jpg" media="(max-width:1300px)">
+            <source srcset="me3.jpg">
+            <img class="center" src="me.jpg" alt="Jasper's pic" style="width: 30%;">
+        </picture>
+        <h1 style="text-align: center;">Normal h1 tag</h1>
+        <h1 style="font-size: 5vw; text-align: center;">font-size: 2vw</h1>
+        <p style="font-size: 2.5vw; text-align: center; display: block; width: 90%; margin-left: auto; margin-right: auto;">Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
 
 
 
