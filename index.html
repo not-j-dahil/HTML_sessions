@@ -38,6 +38,7 @@
             <li><a href="#javascript">JavaScript</a></li>
             <li><a href="#layout">Layout</a></li>
             <li><a href="#responsive">Responsive</a></li>
+            <li><a href="#code">Code</a></li>
         </ul>
     </div>
 
@@ -257,19 +258,27 @@
         <h1 style="text-align: center;">Normal h1 tag</h1>
         <h1 style="font-size: 5vw; text-align: center;">font-size: 2vw</h1>
         <p style="font-size: 2.5vw; text-align: center; display: block; width: 90%; margin-left: auto; margin-right: auto;">Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
-
-        <div class="left_content">
-            <p>Left content</p>
+        <div style="display: table; width: 100%;">
+            <div class="left_content">
+                <p>Left content</p>
+            </div>
+            <div class="main_content">
+                <p>Main content</p>
+            </div>
+            <div class="right_content">
+                <p>Right content</p>
+            </div>
         </div>
 
-        <div class="main_content">
-            <p>Main content</p>
-        </div>
-
-        <div class="right_content">
-            <p>Right content</p>
-        </div>
-
+        <h2 id="code">Computer Code Elements</h2>
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd><br>
+            <ins>Message from my computer:</ins><br>
+            <samp>File not found.<br>Press F1 to continue</samp><br>
+            <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+        </code></p>
 
 </body>
 
