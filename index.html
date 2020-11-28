@@ -293,9 +293,9 @@
             <fieldset>
                 <legend>Personalia:</legend>
                 <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
+                <input type="text" id="fname" name="fname" value="John" disabled><br>
                 <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname"><br>
+                <input type="text" id="lname" name="lname" value="Doe" autofocus readonly><br>
                 <div class="gender" style="margin-top: 10px;">
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
@@ -349,20 +349,21 @@
                 <input type="date">
                 <input type="datetime-local"> Email:
                 <input type="email">
-                <input type="file"> Hidden input [
+                <input type="file" multiple> Hidden input [
                 <input type="hidden">] Image:
                 <!-- src to an image-->
                 <input type="image" src="me2.jpg" alt="pic" width="20px">
                 <input type="month"> Number:
                 <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30"> Password:
-                <input type="password">
+                <input type="password" required>
                 <input type="radio"> radio Range:
                 <input type="range" id="range" name="range" min="0" max="50">
                 <input type="reset"> Search:
                 <input type="search">
                 <input type="submit"> Telephone:
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678"> Text:
-                <input type="text">
+                <input type="tel" id="phone" name="phone" title="Pattern: 123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678"> Text:
+                <input type="text" size=20 placeholder="Only show 20 characters">
+                <input type="text" maxlength=4 size="4" placeholder="XXXX">
                 <input type="time"> URL:
                 <input type="url">
                 <input type="week">
