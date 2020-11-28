@@ -25,6 +25,13 @@ p {
     padding: 10px;
 }
 
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(183, 255, 231);
+    border: 10px solid rgb(137, 190, 173);
+}
+
 
 /* Lists settings */
 

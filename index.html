@@ -40,6 +40,7 @@
             <li><a href="#responsive">Responsive</a></li>
             <li><a href="#code">Code</a></li>
             <li><a href="#entities">HTML code in text</a></li>
+            <li><a href="#forms">Forms</a></li>
         </ul>
     </div>
 
@@ -284,6 +285,37 @@
 
         <h2 id="entities">Html code in text</h2>
         <p><a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">How to add HTML code to text</a></p>
+
+        <h2 id="forms">Forms!</h2>
+
+        <!-- input MUST have the "name" attribute -->
+        <form autocomplete="on">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <div class="gender" style="margin-top: 10px;">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <p style="border: dashed rgba(0, 0, 0, 0.2);">I have a:</p>
+            <div class="checkbox" style="margin-top: 10px;">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+                <label for="vehicle1">Bike</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+                <label for="vehicle2">Car</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="boat">
+                <label for="vehicle3">Boat</label>
+            </div>
+            <input type="submit" value="Submit" style="margin-top: 50px; padding: 5px;">
+
+        </form>
+
+
 
 </body>
 
