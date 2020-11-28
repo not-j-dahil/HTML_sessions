@@ -42,6 +42,10 @@
             <li><a href="#entities">HTML code in text</a></li>
             <li><a href="#forms">Forms</a></li>
             <li><a href="#canvas">Canvas and SVG</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#youtube">YouTube</a></li>
+            <li><a href="#api">HTML APIs</a></li>
         </ul>
     </div>
 
@@ -214,8 +218,8 @@
 
         <h2 id="iframe">Iframes!</h2>
         <iframe class="center" name="iframe_a" src="https://www.youtube.com/watch?v=acwkGrYIDD4" style="border: none;" title="Parkour LifeAfter"></iframe>
-        <p><a href="https://www.youtube.com/watch?v=acwkGrYIDD4" target="iframe_a">Parkour LifeAfter</a> - This is supposed to show on the iframe above</p>
-
+        <p><a href="https://www.youtube.com/embed/acwkGrYIDD4" target="iframe_a">Parkour LifeAfter</a> - This is supposed to show on the iframe above</p>
+        <!-- .com/watch?v= REPLACE TO .com/embed/-->
         <h2 id="javascript">JavaScript!</h2>
         <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time</button>
         <p id="demo">Watch me change . . .</p>
@@ -417,13 +421,19 @@
         </video>
 
         <h2 id="audio">Audio!</h2>
-        <audio controls>
+        <audio class="center" controls>
             <source src="The_Alphabet_Collab[Youtubetomp3.sc].mp3" type="audio/mpeg">
+        </audio><br>
+        <audio class="center" controls>
             <source src="Most Happy Background Music For Videos (128 kbps).mp3" type="audio/mpeg">
         </audio>
 
+        <h2 id="youtube">YouTube!</h2>
+        <iframe class="center" style="width: 75%;" src="https://www.youtube.com/embed/acwkGrYIDD4"></iframe>
 
+        <h1 id="api" class="center">HTML APIs</h1>
 
+        <h2><a href="https://www.w3schools.com/html/html5_geolocation.asp">Geolocation API</a></h2>
 
 </body>
 
