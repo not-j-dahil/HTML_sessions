@@ -41,6 +41,7 @@
             <li><a href="#code">Code</a></li>
             <li><a href="#entities">HTML code in text</a></li>
             <li><a href="#forms">Forms</a></li>
+            <li><a href="#canvas">Canvas and SVG</a></li>
         </ul>
     </div>
 
@@ -369,6 +370,47 @@
                 <input type="week">
             </fieldset>
         </form>
+
+        <h2 id="canvas">Canvas and SVG!</h2>
+        <p>The HTML canvas element is used to draw graphics, on the fly, via JavaScript.
+            <br>The canvas element is only a container for graphics. You must use JavaScript to actually draw the graphics.</p>
+
+        <canvas id="myCanvas" class="center" width="200" height="100" style="border: 1px dashed #333; margin-top: 30px; margin-bottom: 30px;"></canvas>
+        <!-- adding some javascript -->
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            // put a gradient
+            var grd = ctx.createLinearGradient(0, 0, 200, 0);
+            grd.addColorStop(0, "red");
+            grd.addColorStop(1, "cyan");
+            ctx.fillStyle = grd;
+            ctx.fillRect(10, 10, 180, 80);
+            /* make a d.line */
+            ctx.moveTo(0, 0);
+            ctx.lineTo(200, 100);
+            ctx.stroke();
+            // make a circle
+            ctx.beginPath();
+            ctx.arc(100, 50, 40, 0, 2 * Math.PI)
+            ctx.stroke();
+            // write text
+            ctx.font = "30px Arial";
+            ctx.strokeText("Jasper Dahil", 10, 50);
+            grd.addColorStop(0, "cyan");
+            grd.addColorStop(1, "red");
+            ctx.fillStyle = grd;
+            ctx.fillText("Hello World", 10, 60);
+        </script>
+        <br>
+        <p>SVG stands for Scalable Vector Graphics
+            <br>SVG is used to define graphics for the Web
+            <br>SVG is a W3C recommendation</p>
+        <svg width="300" height="200" class="center">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+      </svg>
+
 
 
 
