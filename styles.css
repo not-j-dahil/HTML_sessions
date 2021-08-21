@@ -105,11 +105,11 @@ td {
 }
 
 .div {
-    color: red;
+    color: hsl(0, 100%, 50%);
 }
 
 .left_content {
-    background-color: #2196F3;
+    background-color: hsl(207, 90%, 54%);
     padding: 20px;
     float: left;
     width: 20%;
@@ -118,7 +118,7 @@ td {
 }
 
 .main_content {
-    background-color: #f1f1f1;
+    background-color: hsl(0, 0%, 95%);
     padding: 20px;
     float: left;
     width: 50%;
@@ -127,7 +127,7 @@ td {
 }
 
 .right_content {
-    background-color: #4CAF50;
+    background-color: hsl(122, 39%, 49%);
     padding: 20px;
     float: left;
     width: 30%;
@@ -148,18 +148,18 @@ td {
 /* Styling header, section, footer */
 
 header {
-    background-color: rgb(196, 124, 124);
+    background-color: hsl(0, 38%, 63%);
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 nav {
     float: left;
     width: 20%;
     height: auto;
-    background: #ccc;
+    background: hsl(0, 0%, 80%);
     padding: 20px;
 }
 
@@ -173,7 +173,7 @@ article {
     padding: 20px;
     width: 80%;
     height: auto;
-    background-color: #f1f1f1;
+    background-color: hsl(0, 0%, 95%);
 }
 
 section:after {
@@ -183,10 +183,10 @@ section:after {
 }
 
 footer {
-    background-color: #aaa;
+    background-color: hsl(0, 0%, 67%);
     padding: 10px;
     text-align: center;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 @media (max-width: 600px) {
