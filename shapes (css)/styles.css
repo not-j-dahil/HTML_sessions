@@ -1,0 +1,27 @@
+body {
+    background-color: hsl(219, 20%, 20%);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid hsl(16, 100%, 66%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.triangle:first-of-type {
+    border-bottom-color: hsl(174, 72%, 56%);
+    transform: translate(-50%, -100%);
+    z-index: 100;
+}
+
+.triangle:last-of-type {
+    border-bottom-color: hsl(39, 77%, 83%);
+    transform: translate(-50%, 0%);
+    z-index: -100;
+}
